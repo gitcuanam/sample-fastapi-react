@@ -1,5 +1,10 @@
 # fastapi-react-project
 
+## Fix build
+- snyk scan for requirements.txt
+- `sudo apt-get install python3-dev libpq-dev` to build pg_config: `pg_config is required to build psycopg2 from source. Please add the directory containing pg_config to the $PATH or specify the full executable path with the option`
+- typescript 4.9.5 is not compatible with react-script@4.0.0 so I upgraded to react-script@5.0.1
+
 ## Features
 
 - **FastAPI** with Python 3.8
